@@ -1,6 +1,6 @@
 # Holly's Software Engineering Portfolio 🚀
 
-![Portfolio Preview](./public/portfolio.gif)
+![Portfolio Preview](https://drive.google.com/file/d/18saC8QUAC4ONAmxCjVagl7w4rt2NIfRl/view?usp=sharing)
 
 ## Introduction 📄
 
@@ -39,6 +39,6 @@ I appreciate any feedback and contributions. Feel free to fork the project and s
 [<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/hollyabrams)
 <br />
 
-[<img align="left" alt="Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />](mailto:your.holly.d.abrams@gmail.com)
+[<img align="left" alt="Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />](mailto:holly.d.abrams@gmail.com)
 
 <br />
