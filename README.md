@@ -4,7 +4,7 @@
 
 ## Introduction 📄
 
-Hi there! This repository contains the code for my personal software engineering portfolio. My portfolio showcases my projects, skills, experiences, and also a bit about myself. It's a reflection of my journey as a software engineer. You can view the live portfolio here: [Holly's Portfolio](https://[your-portfolio-link]).
+Hi there! This repository contains the code for my personal software engineering portfolio. My portfolio showcases my projects, skills, experiences, and also a bit about myself. It's a reflection of my journey as a software engineer. You can view the live portfolio here: [Holly's Portfolio](https://hollyabrams.github.io/portfolio/).
 
 ## Technologies Used 💻
 
