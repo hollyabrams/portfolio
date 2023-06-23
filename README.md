@@ -1,6 +1,6 @@
 # Holly's Software Engineering Portfolio 🚀
 
-![Portfolio Preview](https://drive.google.com/file/d/18saC8QUAC4ONAmxCjVagl7w4rt2NIfRl/view?usp=sharing)
+![Portfolio Preview](./public/portfolio.gif)
 
 ## Introduction 📄
 
