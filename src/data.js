@@ -82,9 +82,9 @@ export const skills = [
 export const experiences = [
   {
     title: 'Software Engineering Fellow',
-    company: 'Spingboard',
+    company: 'Springboard',
     duration: 'March 2022 - June 2023',
-    description: '800+ hours of hands-on course material, with 1:1 industry expert mentor oversight. Mastering skills in front-end web development, back-end web development, databases, and data structures and algorithms.',
+    description: '800+ hours of hands-on course material, with 1:1 industry expert mentor oversight. mastered skills in front-end web development, back-end web development, databases, and data structures and algorithms.',
   },
   {
     title: 'Knowledge Manager',
