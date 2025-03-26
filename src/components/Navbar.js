@@ -24,7 +24,7 @@ export default function Navbar() {
           <a href="#experience" className="mr-5 hover:text-gray-400">
             Experience
           </a>
-          <a href="https://drive.google.com/file/d/1QhxwQnxeWjHRohBpLyYnVVA8YXr_q1Df/view?usp=drive_link" target='_blank' rel="noopener noreferrer" className="mr-5 hover:text-gray-400">
+          <a href="https://drive.google.com/file/d/1hFUZFp_YMLrQmEvrCUHPezls4HBwDcaX/view?usp=sharing" target='_blank' rel="noopener noreferrer" className="mr-5 hover:text-gray-400">
             Resume
           </a>
         </nav>
