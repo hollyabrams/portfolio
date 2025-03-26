@@ -84,7 +84,7 @@ export const experiences = [
     title: 'Technical Documentation Specialist III',
     company: 'EasyPost',
     duration: 'December 2023 - Present',
-    description: 'Implemented a docs-as-code workflow using Markdown, Git, React, and Next.js, saving the engineering team numerous hours each week. I created a documentation style guide and SOPs to standardize content across teams and built internal tools, dashboards, and scalable templates to support product launches and onboarding.',
+    description: 'I own and maintain all public-facing developer documentation and multiple Help Centers at EasyPost, ensuring consistent, high-quality content across a growing product suite. I implemented a docs-as-code workflow using Markdown, Git, React, and Next.js, saving the engineering team numerous hours each week. I also created a documentation style guide, SOPs, and internal dashboards to streamline contributions and improve cross-functional visibility.',
   },
   {
     title: 'Software Engineering Fellow',
