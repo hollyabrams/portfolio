@@ -81,6 +81,12 @@ export const skills = [
 
 export const experiences = [
   {
+    title: 'Technical Documentation Specialist III',
+    company: 'EasyPost',
+    duration: 'December 2023 - Present',
+    description: 'Implemented a docs-as-code workflow using Markdown, Git, React, and Next.js, saving the engineering team numerous hours each week. I created a documentation style guide and SOPs to standardize content across teams and built internal tools, dashboards, and scalable templates to support product launches and onboarding.',
+  },
+  {
     title: 'Software Engineering Fellow',
     company: 'Springboard',
     duration: 'March 2022 - June 2023',
