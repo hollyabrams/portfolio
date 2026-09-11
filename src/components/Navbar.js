@@ -16,7 +16,7 @@ export default function Navbar() {
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 hover:text-gray-400">
-            Past Work
+            Development Projects
           </a>
           <a href="#skills" className="mr-5 hover:text-gray-400">
             Skills
