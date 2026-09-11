@@ -66,42 +66,23 @@ export const testimonials = [
   },
 ];
 
-export const skills = [
-  "Full-Stack Development",
-  "Content Management",
-  "React",
-  "JavaScript",
-  "Python",
-  "Flask",
-  "Node.js",
-  "Express",
-  "PostgreSQL",
-  "Tailwind CSS"
-];
+export const skills = [ "Documentation Engineering", "Developer Documentation", "API Documentation", "Docs-as-Code", "Developer Experience", "Information Architecture", "Technical Writing", "React", "Next.js", "MDX", "JavaScript", "Python", "Git & GitHub", "CI/CD", "Documentation Automation", "Postman", "Content Management", "Knowledge Management" ];
 
 export const experiences = [
-  {
-    title: 'Technical Documentation Specialist III',
-    company: 'EasyPost',
-    duration: 'December 2023 - Present',
-    description: 'I own and maintain all public-facing developer documentation and multiple Help Centers at EasyPost, ensuring consistent, high-quality content across a growing product suite. I implemented a docs-as-code workflow using Markdown, Git, React, and Next.js, saving the engineering team numerous hours each week. I also created a documentation style guide, SOPs, and internal dashboards to streamline contributions and improve cross-functional visibility.',
-  },
-  {
-    title: 'Software Engineering Fellow',
-    company: 'Springboard',
-    duration: 'March 2022 - June 2023',
-    description: '800+ hours of hands-on course material, with 1:1 industry expert mentor oversight. Mastered skills in front-end web development, back-end web development, databases, and data structures and algorithms.',
-  },
-  {
-    title: 'Knowledge Manager',
-    company: 'Brasfield and Gorrie',
-    duration: 'Aug 2019 - Dec 2021',
-    description: 'Oversaw several key initiatives, including the implementation and frontend development of a new company-wide intranet. In this role, I was responsible for establishing, administering, and maintaining a well-structured and user-friendly knowledge base. Additionally, I ensured that all information on the intranet was aligned with marketing and branding standards, while also promoting the professional development of employees.',
-  },
-  {
-    title: 'Content Manager',
-    company: 'Brasfield and Gorrie',
-    duration: 'Jan 2016 - Aug 2019',
-    description: "Managed the functional system administration of the company intranet using multiple content management systems. This included implementing security controls to safeguard confidential information, optimizing content workflow to ensure seamless publishing of accurate and engaging materials, and continuously improving the intranet by soliciting feedback from stakeholders and implementing enhancements. Additionally, I collaborated with cross-functional teams to ensure that the intranet met the needs of all users and was aligned with the company's strategic goals.",
-  },
+  { title: 'Senior Documentation Engineer', 
+    company: 'EasyPost', 
+    duration: 'December 2023 - September 2026', 
+    description: 'Owned and evolved developer documentation for an API-first SaaS platform, combining technical writing with documentation engineering and developer experience. Maintained a docs-as-code platform built with Next.js, React, MDX, and Git; documented REST APIs, carrier integrations, and complex shipping workflows; and partnered closely with Engineering, Product, and UX. Improved documentation architecture, search, release workflows, and automation while developing scalable standards and tooling for public and internal documentation.', },
+  { title: 'Software Engineering Fellow', 
+    company: 'Springboard', 
+    duration: 'March 2022 - June 2023', 
+    description: 'Completed 800+ hours of intensive, project-based software engineering training with 1:1 mentorship from an industry professional. Built full-stack applications while developing practical experience with JavaScript, React, Node.js, Python, databases, APIs, testing, data structures, and algorithms.', },
+  { title: 'Knowledge Manager', 
+    company: 'Brasfield & Gorrie', 
+    duration: 'August 2019 - December 2021', 
+    description: 'Led enterprise knowledge management initiatives, including the implementation and front-end development of a company-wide intranet. Established governance, information architecture, content standards, and publishing processes to create a scalable, user-friendly knowledge ecosystem while partnering across teams to improve information access and employee experience.', },
+  { title: 'Content Manager', 
+    company: 'Brasfield & Gorrie', 
+    duration: 'January 2016 - August 2019', 
+    description: 'Managed content operations and functional administration for the company intranet across multiple content management systems. Developed publishing workflows, administered access controls, improved content architecture, and partnered with stakeholders across the organization to continuously improve the platform and the employee content experience.', },
 ];

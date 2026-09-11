@@ -14,7 +14,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className={`mb-4 leading-relaxed ${theme === 'dark' ? 'text-gray-300 lg:w-2/3 mx-auto leading-relaxed text-base' : 'text-gray-600 lg:w-2/3 mx-auto leading-relaxed text-base'}`}>
-          These skills enable me to design and develop robust and efficient software applications that meet the needs of clients and end-users. 
+          Technical documentation expertise supported by hands-on experience with modern software development tools, workflows, and technologies.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

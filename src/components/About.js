@@ -9,7 +9,7 @@ export default function About() {
 
   useEffect(() => {
     const options = {
-      strings: ['I love to build amazing apps.', 'I also enjoy long walks on the beach.', 'Just kidding, I prefer coding.'],
+      strings: ['I make complex technology easier to understand.', 'I also love long walks on the beach.', 'Just kidding. I prefer the command line. 😂'],
       typeSpeed: 25,
       backSpeed: 10,
       loop: true,
@@ -35,7 +35,7 @@ export default function About() {
                   <span id="description" className={`sm:text-3xl text-2xl mb-4 font-medium ${theme === 'dark' ? 'text-white' : 'text-gray-500'}`}></span>
               </h2>
             <p className={`mb-8 mt-4 leading-relaxed ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
-              I strive to add value by using technology to solve problems, create innovative solutions, and have a little fun while doing it.
+            Senior Documentation Engineer and Technical Writer specializing in API documentation, docs-as-code, and developer experience. I combine technical writing with hands-on development experience to build documentation, tooling, and workflows that help users succeed.
             </p>
             <div className="flex justify-center">
               <a

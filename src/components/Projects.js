@@ -11,10 +11,10 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-10">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className={`title-font sm:text-4xl text-3xl mb-4 font-medium ${theme === 'dark' ? 'text-white' : 'text-gray-500'}`}>
-            Apps I've Built
+            Development Projects
           </h1>
           <p className={`mb-4 leading-relaxed ${theme === 'dark' ? 'text-gray-300 lg:w-2/3 mx-auto leading-relaxed text-base' : 'text-gray-600 lg:w-2/3 mx-auto leading-relaxed text-base'}`}>
-          These apps range from games to productivity tools, demonstrating my ability to build software for various purposes and audiences.
+          Selected development projects demonstrating hands-on experience with frontend and backend technologies, APIs, databases, application architecture, and software development workflows.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
