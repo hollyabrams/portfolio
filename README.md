@@ -47,3 +47,23 @@ This project currently runs locally with Node.js 20.
 npm install
 npm start
 ```
+
+The development server runs at `http://localhost:3000`.
+
+## Deployment
+
+The portfolio is hosted with GitHub Pages. Pushing changes to `main` updates the source repository but does not publish the site.
+
+After committing and pushing changes, deploy the production build with:
+
+```sh
+npm run deploy
+```
+
+The deploy script runs the production build and publishes the `build` directory to the `gh-pages` branch.
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/hollyabrams/)
+- [GitHub](https://github.com/hollyabrams)
+- [Email](mailto:holly.d.abrams@gmail.com)
