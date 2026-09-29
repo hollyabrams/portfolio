@@ -1,51 +1,38 @@
+export const featuredProject = {
+  title: "DocOps",
+  tagline: "Documentation engineered.",
+  description:
+    "A documentation engineering application that demonstrates how documentation can be built, operated, validated, and maintained as an engineered system. DocOps brings together docs-as-code, governance, API documentation, OpenAPI, automated documentation health, CI/CD, and AI-ready documentation practices.",
+  technologies: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "MDX",
+    "SCSS",
+    "OpenAPI",
+    "GitHub Actions",
+  ],
+  image: "./docops.png",
+  liveUrl: "https://hollyabrams.github.io/docops/",
+  sourceUrl: "https://github.com/hollyabrams/docops",
+};
+
 export const projects = [
   {
     title: "Mode - Ecommerce",
     subtitle: "React, Node.js, Stripe API",
     description:
-      "Mode is an online shopping platform where users can browse through products, make purchases, manage their shopping carts.",
+      "Mode is an online shopping platform where users can browse products, manage their shopping carts, and make purchases.",
     image: "./mode.gif",
     link: "https://mode-ecommerce.onrender.com/",
   },
   {
     title: "Disney Characterverse",
-    subtitle: "Python, Flask, Sqlalchemy",
+    subtitle: "Python, Flask, SQLAlchemy",
     description:
       "Disney Characterverse is a web application that allows users to explore, learn about, and save their favorite Disney characters.",
     image: "./disney-characterverse.gif",
     link: "https://disney-characterverse.onrender.com/",
-  },
-  {
-    title: "Jobly",
-    subtitle: "React, Node.js, Express",
-    description:
-      "Jobly is a web application built using React that allows users to search and apply for job listings. Users can sign up, log in, and update their profile information.",
-    image: "./jobly.gif",
-    link: "https://jobly-79ex.onrender.com/",
-  },
-  {
-    title: "Blogly",
-    subtitle: "Python, Flask, Sqlalchemy",
-    description:
-      "A user-friendly blogging app crafted with Python, Flask, and SQLAlchemy, offering an intuitive interface for effortless content creation and management.",
-    image: "./blogly.gif",
-    link: "https://github.com/hollyabrams/blogly",
-  },
-  {
-    title: "Memory Game",
-    subtitle: "Javascript, HTML, CSS",
-    description:
-      "Boost your memory skills as you flip cards and match pairs in this visually appealing and interactive game. Get ready to challenge your memory and have fun at the same time!",
-    image: "./memory-game.gif",
-    link: "https://hollyabrams.github.io/MemoryGame/",
-  },
-  {
-    title: "Meme Generator",
-    subtitle: "Javascript, HTML, CSS",
-    description:
-      "Create hilarious custom memes by adding text and images with ease. Share your unique sense of humor with the world and spread laughter using this meme generator!",
-    image: "./meme-master.gif",
-    link: "https://hollyabrams.github.io/MemeGenerator/",
   },
 ];
 
@@ -66,7 +53,29 @@ export const testimonials = [
   },
 ];
 
-export const skills = [ "Documentation Engineering", "Developer Documentation", "API Documentation", "Docs-as-Code", "Developer Experience", "Information Architecture", "Technical Writing", "React", "Next.js", "MDX", "JavaScript", "Python", "Git & GitHub", "CI/CD", "Documentation Automation", "Postman", "Content Management", "Knowledge Management" ];
+export const skills = [
+  "Documentation Engineering",
+  "Developer Documentation",
+  "API Documentation",
+  "SDK Documentation",
+  "Docs-as-Code",
+  "Developer Experience",
+  "Information Architecture",
+  "Technical Writing",
+  "OpenAPI",
+  "React",
+  "Next.js",
+  "TypeScript",
+  "MDX",
+  "JavaScript",
+  "Python",
+  "Git & GitHub",
+  "CI/CD",
+  "Documentation Automation",
+  "Postman",
+  "Content Management",
+  "Knowledge Management",
+];
 
 export const experiences = [
   { title: 'Senior Documentation Engineer', 

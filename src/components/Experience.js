@@ -1,32 +1,55 @@
-import React from 'react';
-import { useTheme } from '../ThemeContext';
+import React from "react";
 import { experiences } from "../data";
 
-
 export default function Experience() {
-  const { theme } = useTheme();
   return (
-    <section id="experience" className={theme === 'dark' ? 'bg-gray-900' : 'bg-white text-gray-500'}>
-      <div className="container mx-auto px-10 py-20 md:flex-row flex-col items-center">
-        <h1 className={`title-font sm:text-4xl text-3xl mb-4 font-medium text-center ${theme === 'dark' ? 'text-white' : 'text-gray-500'}`}>
-          My Experience
-        </h1>
-        <div className="w-full mx-auto">
+    <section id="experience" className="bg-white text-gray-900">
+      <div className="container px-6 py-16 mx-auto">
+        <header className="max-w-3xl mx-auto mb-10 text-center">
+          <p className="mb-3 text-sm font-semibold tracking-widest text-blue-700 uppercase">
+            Career
+          </p>
+
+          <h2 className="mb-4 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+            Experience
+          </h2>
+
+          <p className="text-base leading-relaxed text-gray-600">
+            A career spanning documentation engineering, technical writing,
+            software development, content operations, and knowledge management.
+          </p>
+        </header>
+
+        <div className="max-w-4xl mx-auto">
           {experiences.map((experience, index) => (
-            <div key={index} className={`mb-8 ${index !== 0 ? 'border-t border-gray-300 pt-8' : ''}`}>
-              <h2 className={`title-font sm:text-2xl text-xl font-medium ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`}>
-                {experience.title}
-              </h2>
-              <h3 className={`sm:text-xl text-lg font-medium ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
-                {experience.company}
-              </h3>
-              <h4 className={`sm:text-lg text-base font-medium ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
-                {experience.duration}
-              </h4>
-              <p className={`leading-relaxed ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
-                {experience.description}
-              </p>
-            </div>
+            <article
+              key={`${experience.company}-${experience.title}`}
+              className={`py-7 ${
+                index !== 0 ? "border-t border-gray-200" : ""
+              }`}
+            >
+              <div className="grid gap-4 md:grid-cols-4 md:gap-10">
+                <div>
+                  <p className="text-sm font-medium text-gray-500">
+                    {experience.duration}
+                  </p>
+                </div>
+
+                <div className="md:col-span-3">
+                  <h3 className="mb-1 text-xl font-semibold text-gray-900 sm:text-2xl">
+                    {experience.title}
+                  </h3>
+
+                  <p className="mb-4 font-medium text-blue-700">
+                    {experience.company}
+                  </p>
+
+                  <p className="leading-relaxed text-gray-600">
+                    {experience.description}
+                  </p>
+                </div>
+              </div>
+            </article>
           ))}
         </div>
       </div>

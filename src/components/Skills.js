@@ -1,32 +1,33 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
-import { useTheme } from '../ThemeContext';
 
 export default function Skills() {
-  const { theme } = useTheme();
   return (
-    <section id="skills" className={theme === 'dark' ? 'bg-gray-900 text-gray-300' : 'bg-white text-gray-900'}>
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-10">
-          <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className={`title-font sm:text-4xl text-3xl mb-4 font-medium ${theme === 'dark' ? 'text-white' : 'text-gray-500'}`}>
+    <section id="skills" className="text-gray-900 bg-gray-50">
+      <div className="container px-6 py-16 mx-auto">
+        <header className="max-w-3xl mx-auto mb-10 text-center">
+          <ChipIcon className="inline-block w-9 mb-3 text-gray-700" />
+
+          <h2 className="mb-4 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
             Skills &amp; Technologies
-          </h1>
-          <p className={`mb-4 leading-relaxed ${theme === 'dark' ? 'text-gray-300 lg:w-2/3 mx-auto leading-relaxed text-base' : 'text-gray-600 lg:w-2/3 mx-auto leading-relaxed text-base'}`}>
-          Technical documentation expertise supported by hands-on experience with modern software development tools, workflows, and technologies.
+          </h2>
+
+          <p className="text-base leading-relaxed text-gray-600">
+            Documentation engineering expertise supported by hands-on
+            experience with software development, developer tooling, content
+            systems, and modern engineering workflows.
           </p>
-        </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        </header>
+
+        <div className="flex flex-wrap justify-center max-w-5xl gap-3 mx-auto">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded-lg flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
+            <span
+              key={skill}
+              className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-full"
+            >
+              {skill}
+            </span>
           ))}
         </div>
       </div>

@@ -1,44 +1,49 @@
-# Holly's Software Engineering Portfolio 🚀
+# Holly Abrams — Portfolio
 
-![Portfolio Preview](./public/portfolio.gif)
+![Portfolio Preview](./public/portfolio.png)
 
-## Introduction 📄
+## About
 
-Hi there! This repository contains the code for my personal software engineering portfolio. My portfolio showcases my projects, skills, experiences, and also a bit about myself. It's a reflection of my journey as a software engineer. You can view the live portfolio here: [Holly's Portfolio](https://hollyabrams.github.io/portfolio/).
+This repository contains the source for my personal portfolio.
 
-## Technologies Used 💻
+I'm a Senior Documentation Engineer and Technical Writer specializing in API documentation, docs-as-code, and developer experience. My work combines technical writing with hands-on software development to build documentation systems, tooling, and workflows that make complex products easier to understand and use.
 
-- React.js
+The portfolio features **DocOps**, a documentation engineering application I built to demonstrate how documentation can be designed, operated, validated, and maintained as an engineered system, along with selected full-stack development projects and my professional experience.
+
+[View the live portfolio](https://hollyabrams.github.io/portfolio/)
+
+## Featured Project
+
+### DocOps — Documentation engineered.
+
+DocOps brings together documentation engineering practices including docs-as-code, governance, API documentation, OpenAPI, automated documentation health, CI/CD, and AI-ready documentation.
+
+[Explore DocOps](https://hollyabrams.github.io/docops/) · [View the source](https://github.com/hollyabrams/docops)
+
+## Technologies
+
+- React
+- JavaScript
 - Tailwind CSS
-- CRACO (Create React App Configuration Override)
-- Typed.js (For Typing Animation)
+- CRACO
+- Typed.js
+- GitHub Pages
 
-## Features ✨
+## Portfolio Highlights
 
-- Dark/Light Mode Toggle
-- Responsive Design
-- Animated Typing Effect
-- Projects Section
-- Contact Form
+- Featured documentation engineering work
+- Selected full-stack development projects
+- Technical skills and technologies
+- Professional experience
+- Responsive design
+- Animated introduction
+- Direct contact and professional links
 
-## Running Locally 🛠
+## Running Locally
 
-To get the app running locally, clone the repository and run the following commands:
+This project currently runs locally with Node.js 20.
 
 ```sh
 npm install
 npm start
 ```
-This will start the development server at `localhost:3000`.
-
-## Contributions 🤝
-I appreciate any feedback and contributions. Feel free to fork the project and submit a pull request, or open an issue if you find a bug or have any suggestions for improvements!
-
-## Connect with me 🌐
-
-[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/hollyabrams)
-<br />
-
-[<img align="left" alt="Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />](mailto:holly.d.abrams@gmail.com)
-
-<br />
