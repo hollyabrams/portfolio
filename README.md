@@ -18,7 +18,7 @@ The portfolio features **DocOps**, a documentation engineering application I bui
 
 DocOps brings together documentation engineering practices including docs-as-code, governance, API documentation, OpenAPI, automated documentation health, CI/CD, and AI-ready documentation.
 
-[Explore DocOps](https://hollyabrams.github.io/docops/) · [View the source](https://github.com/hollyabrams/docops)
+[Explore DocOps](https://docops-gamma.vercel.app) · [View the source](https://github.com/hollyabrams/docops)
 
 ## Technologies
 

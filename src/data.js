@@ -13,7 +13,7 @@ export const featuredProject = {
     "GitHub Actions",
   ],
   image: "./docops.png",
-  liveUrl: "https://hollyabrams.github.io/docops/",
+  liveUrl: "https://docops-gamma.vercel.app",
   sourceUrl: "https://github.com/hollyabrams/docops",
 };
 
